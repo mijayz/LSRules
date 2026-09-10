@@ -1,0 +1,20 @@
+{
+  "name": "Google - Telemetry & Ads",
+  "description": "Google Analytics, Firebase Analytics/Crashlytics, and the DoubleClick/AdSense ad stack. Excludes googleapis.com hosts that carry real functionality (Play Store updates, push messaging, Safe Browsing) - see README for that list before you go nuclear on *.googleapis.com.",
+  "denied-remote-domains": [
+    "google-analytics.com",
+    "www.google-analytics.com",
+    "ssl.google-analytics.com",
+    "app-measurement.com",
+    "firebaselogging-pa.googleapis.com",
+    "crashlytics.com",
+    "firebase-settings.crashlytics.com",
+    "doubleclick.net",
+    "googlesyndication.com",
+    "pagead2.googlesyndication.com",
+    "googleadservices.com",
+    "adservice.google.com",
+    "googletagmanager.com",
+    "googletagservices.com"
+  ]
+}

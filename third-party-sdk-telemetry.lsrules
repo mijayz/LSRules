@@ -1,0 +1,29 @@
+{
+  "name": "Third-Party SDK Telemetry",
+  "description": "Crash reporting, product analytics, and mobile attribution SDKs bundled into a huge share of third-party apps (menu bar apps, Electron apps, anything cross-platform). These are commercial SaaS vendors with stable domains - far less likely to rotate than Apple's or Google's own infra. Each entry is added as a domain-type rule, which Little Snitch matches against the domain and every hostname within it (e.g. sentry.io also covers ingest.sentry.io and o<id>.ingest.us.sentry.io), so subdomains do not need to be listed separately.",
+  "denied-remote-domains": [
+    "sentry.io",
+    "bugsnag.com",
+    "api.mixpanel.com",
+    "api.amplitude.com",
+    "api.segment.io",
+    "cdp.segment.com",
+    "onesignal.com",
+    "api.onesignal.com",
+    "api2.branch.io",
+    "app.adjust.com",
+    "s2s.adjust.com",
+    "t.appsflyer.com",
+    "api2.appsflyer.com",
+    "control.kochava.com",
+    "data.flurry.com",
+    "sb.scorecardresearch.com",
+    "amazon-adsystem.com",
+    "instabug.com",
+    "count.ly",
+    "heapanalytics.com",
+    "logrocket.com",
+    "logrocket.io",
+    "browser-intake-datadoghq.com"
+  ]
+}
