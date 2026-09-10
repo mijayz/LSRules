@@ -1,6 +1,6 @@
 {
   "name": "Third-Party SDK Telemetry",
-  "description": "Crash reporting, product analytics, and mobile attribution SDKs bundled into a huge share of third-party apps (menu bar apps, Electron apps, anything cross-platform). These are commercial SaaS vendors with stable domains - far less likely to rotate than Apple's or Google's own infra. Each entry is added as a domain-type rule, which Little Snitch matches against the domain and every hostname within it (e.g. sentry.io also covers ingest.sentry.io and o<id>.ingest.us.sentry.io), so subdomains do not need to be listed separately.",
+  "description": "Crash reporting, product analytics, and mobile attribution SDKs bundled into a huge share of third-party apps",  
   "denied-remote-domains": [
     "sentry.io",
     "bugsnag.com",
