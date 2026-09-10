@@ -1,12 +1,12 @@
 {
-  "denied-remote-domains": [
+  "description": "Analytics, diagnostics, and ad-attribution hosts used by macOS/iOS apps and Apple's own apps.",
+  "name": "Apple - Telemetry & Ads",
+  "denied-remote-hosts": [
     "metrics.icloud.com",
     "metrics.mzstatic.com",
     "xp.apple.com",
     "iadsdk.apple.com",
     "iad.apple.com",
     "search-ads.apple.com"
-  ],
-  "description": "Analytics, diagnostics, and ad-attribution domains used by macOS/iOS apps and Apple's own apps",
-  "name": "Apple - Telemetry & Ads"
+  ]
 }
