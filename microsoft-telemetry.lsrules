@@ -1,7 +1,7 @@
 {
   "name": "Microsoft - Telemetry",
   "description": "OS/app-level telemetry endpoints used by Office, Teams, OneDrive, and Edge on macOS. These are the same hostnames Windows uses (Microsoft doesn't run separate infra per OS), well documented for years via the WindowsSpyBlocker project. Excludes update/licensing domains that would break Office activation.",
-  "denied-remote-domains": [
+  "denied-remote-hosts": [
     "vortex.data.microsoft.com",
     "vortex-win.data.microsoft.com",
     "settings-win.data.microsoft.com",
