@@ -1,6 +1,6 @@
 {
   "name": "Third-Party SDK Telemetry",
-  "description": "Crash reporting, product analytics, and mobile attribution SDKs bundled into a huge share of third-party apps",  
+  "description": "Crash reporting, product analytics, and mobile attribution SDKs bundled into a huge share of third-party apps",
   "denied-remote-domains": [
     "sentry.io",
     "bugsnag.com",
